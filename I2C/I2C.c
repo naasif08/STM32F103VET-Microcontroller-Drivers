@@ -1214,7 +1214,7 @@ void ER_IRQHandler(I2C_Settings *i2c){
 		/*
 		In reception when a new byte is received (including ACK pulse) and the DR register has not 
 		been read yet. New received byte is lost.
-    –In transmission when a new byte should be sent and the DR register has not been written yet.
+    Â–In transmission when a new byte should be sent and the DR register has not been written yet.
  		The same byte is sent twice
 		
 		*/
